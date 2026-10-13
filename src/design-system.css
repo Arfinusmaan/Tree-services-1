@@ -830,15 +830,15 @@ p {
 
 .img-block--tall {
   aspect-ratio: 4/5;
-  max-height: 520px;
+  max-height: 420px;
 }
 .img-block--wide {
   aspect-ratio: 16/9;
-  max-height: 440px;
+  max-height: 380px;
 }
 .img-block--square {
   aspect-ratio: 1/1;
-  max-height: 480px;
+  max-height: 400px;
 }
 
 /* ── FULL WIDTH PHOTO BANNER ──────────────────────────────────── */
@@ -1379,11 +1379,13 @@ p {
     gap: 24px;
   }
   
+  .img-block,
   .img-block--tall,
   .img-block--square,
   .img-block--wide {
-    max-height: 360px !important;
+    max-height: 300px !important;
     aspect-ratio: 16/10 !important;
+    width: 100% !important;
   }
 
   .editorial-showcase {
@@ -1391,7 +1393,7 @@ p {
     min-height: auto !important;
   }
   .editorial-showcase__image {
-    height: 320px !important;
+    height: 280px !important;
   }
 }
 
@@ -1409,13 +1411,15 @@ p {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .img-block,
   .img-block--tall,
   .img-block--square,
   .img-block--wide {
-    max-height: 280px !important;
+    max-height: 240px !important;
     aspect-ratio: 16/10 !important;
+    width: 100% !important;
   }
   .editorial-showcase__image {
-    height: 260px !important;
+    height: 220px !important;
   }
 }

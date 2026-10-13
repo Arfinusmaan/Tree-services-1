@@ -56,8 +56,8 @@ export default function Home() {
             </Reveal>
 
             <Reveal delay={150}>
-              <div className="img-block img-block--tall" style={{ minHeight: '380px' }}>
-                <img src={IMAGES.introHome} alt="Tall healthy canopy with lush sunlit foliage" loading="lazy" />
+              <div className="img-block" style={{ maxHeight: '340px', height: '100%', width: '100%', overflow: 'hidden' }}>
+                <img src={IMAGES.introHome} alt="Tall healthy canopy with lush sunlit foliage" loading="lazy" style={{ height: '100%', width: '100%', objectFit: 'cover' }} />
               </div>
             </Reveal>
 
