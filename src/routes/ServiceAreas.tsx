@@ -69,7 +69,7 @@ export default function ServiceAreas() {
               </div>
             </div>
 
-            <div className="img-block img-block--tall">
+            <div className="img-block img-block--tall" style={{ maxHeight: '480px', width: '100%', alignSelf: 'center' }}>
               <img src={IMAGES.introHome} alt="Neighborhood canopy of tall mature trees" loading="lazy" />
             </div>
           </div>
